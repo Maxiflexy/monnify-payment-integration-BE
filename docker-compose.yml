@@ -1,0 +1,8 @@
+services:
+  ngrok:
+    image: wernight/ngrok
+    command: ngrok http 8080
+    ports:
+      - "4040:4040"
+    environment:
+      - NGROK_AUTHTOKEN=2t0cViVfLSpTZqCN1LO1tt8m2uS_6PndpR2UGkVy1U3pk3xRQ
